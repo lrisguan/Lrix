@@ -150,7 +150,7 @@ Flags of [Makefile](./Makefile):
 > When developing, I using **qemu** version **9.2**.
 ```bash
 git clone https://github.com/lrisguan/Lrix.git
-cd Minios
+cd Lrix
 # execute `make info` to see the flags and help.
 # to run the os:
 make run # VIRTIO=1, FS_DEBUG=0, TRAP_DEBUG=0
