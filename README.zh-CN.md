@@ -6,6 +6,7 @@
 
 ## 📌 简介
 这是一个基于 [RISC-V](https://riscv.org) 从零开始实现的操作系统。
+关于 Lrix 的细节，你可以参见 [Report](./assets/LrixReport.pdf) or [报告](./assets/LrixReport-ZhCN.pdf).
 
 ## 👀 演示
 https://github.com/user-attachments/assets/a500f8f4-6f2b-42ed-9ab6-f23aaa7f8497

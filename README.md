@@ -6,7 +6,8 @@
 
 ## 📌 Introduction
 This is a scratch implemention of a Operating System based on [RISC-V](https://riscv.org).
-
+For details of Lrix, you can visit [Report](./assets/LrixReport.pdf) or 
+[报告](./assets/LrixReport-ZhCN.pdf).
 ## 👀 Presentation
 https://github.com/user-attachments/assets/a500f8f4-6f2b-42ed-9ab6-f23aaa7f8497
 
