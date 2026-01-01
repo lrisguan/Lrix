@@ -28,6 +28,7 @@
 \author{
       \Large Project: Lrix\\
       \Large GitHub: \url{https://github.com/lrisguan/Lrix} \\
+      \Large Author: Lris Guan \\
       }
 \date{\today}
 
@@ -38,10 +39,10 @@
 
 \begin{abstract}
 Lrix is a scratch educational operating system targeting the RISC-V architecture and
-QEMU's \texttt{virt} machine running under \textbf{Machine Mode}. That's why I 
-call it scratch(In the future maybe I will fix this issue). This report 
-gives a concise technical overview of the kernel and user space design, 
-focusing on memory management, process management, filesystem, trap and 
+QEMU's \texttt{virt} machine running under \textbf{Machine Mode}. That's why I
+call it scratch(In the future maybe I will fix this issue). This report
+gives a concise technical overview of the kernel and user space design,
+focusing on memory management, process management, filesystem, trap and
 interrupt handling, system call interface, and the built-in shell.
 \end{abstract}
 
@@ -51,7 +52,7 @@ It boots on the QEMU \texttt{riscv64 virt} platform, uses a simple UART driver
 for console I/O, and provides a minimal UNIX-like process and file abstraction.
 The top-level \texttt{Makefile} builds a kernel image and user programs, and
 runs them inside QEMU using a VirtIO block device as backing storage.
-Note: When developing Lrix, I referred to \cite{riscv}, \cite{riscv:priv}, 
+Note: When developing Lrix, I referred to \cite{riscv}, \cite{riscv:priv},
 \cite{riscv:user}\cite{xv6-riscv}, \cite{xv6-riscv}, \cite{virtio}, \cite{virtio-1.1}
 
 
@@ -122,11 +123,11 @@ switch mechanism.
 \newpage
 \begin{longtable}{|c|l|l|p{0.55\linewidth}|}
 \caption{Description of RegisterState Structure Fields}
-\label{tab:registerstate_en}\\ 
+\label{tab:registerstate_en}\\
 \hline
 Field Name & Register Alias & Field Type & Description               \\
 \hline
-\endfirsthead 
+\endfirsthead
 \caption[]{Description of RegisterState Structure Fields (continued)} \\
 \hline
 Field Name & Register Alias & Field Type & Description               \\
@@ -792,7 +793,7 @@ programs.
 Because the design is intentionally straightforward and the codebase is fully
 self-contained, Lrix serves as a good foundation for experimentation and
 extension, such as adding per-process address spaces, hierarchical directories,
-more sophisticated scheduling policies, or richer user-level utilities. Here I 
+more sophisticated scheduling policies, or richer user-level utilities. Here I
 still want to emphasize that Lrix only runs under Machine Mode.
 
 \printbibliography
