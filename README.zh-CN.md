@@ -8,6 +8,12 @@
 这是一个基于 [RISC-V](https://riscv.org) 从零开始实现的操作系统。
 关于 Lrix 的细节，你可以参见 [Report](./assets/LrixReport.pdf) or [报告](./assets/LrixReport-ZhCN.pdf).
 
+> [!Caution]
+> 当你查看 PDF 文件时，如果遇到类似以下问题：
+> `无法渲染代码块`，你可以前往 [这里](https://github.com/orgs/community/discussions/64419)
+> 获取一些帮助，但可能不一定有效。有点奇怪，有时在我那台老旧的电脑上，它能够正常渲染，但只是偶尔。但在我的手机上，一切都能正常工作。
+
+
 ## 👀 演示
 https://github.com/user-attachments/assets/a500f8f4-6f2b-42ed-9ab6-f23aaa7f8497
 

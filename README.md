@@ -8,6 +8,14 @@
 This is a scratch implemention of a Operating System based on [RISC-V](https://riscv.org).
 For details of Lrix, you can visit [Report](./assets/LrixReport.pdf) or 
 [报告](./assets/LrixReport-ZhCN.pdf).
+
+> [!Caution]
+> When you are viewing pdf files, and if you encounter issues like: 
+> `Unable to render code block`, you can go [here](https://github.com/orgs/community/discussions/64419)
+> to get some helps, but maybe it not works. And it is strange, sometimes on my
+> old-fashioned computer, it renders normally, but just a time. However it works
+> all well on my phone.
+
 ## 👀 Presentation
 https://github.com/user-attachments/assets/a500f8f4-6f2b-42ed-9ab6-f23aaa7f8497
 
