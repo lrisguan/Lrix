@@ -108,7 +108,7 @@ https://github.com/user-attachments/assets/a500f8f4-6f2b-42ed-9ab6-f23aaa7f8497
     编译步骤
     ```bash
     docker pull `os`:latest
-    docker run -d -name osdev `os`:latest bash
+    docker run -d --name osdev `os`:latest bash
     # 如果你在宿主机上编译了 riscv-toolchain
     # 可能需要添加更多参数来启动
     # docker 容器。
