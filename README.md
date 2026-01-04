@@ -5,7 +5,7 @@
 </p>
 
 ## 📌 Introduction
-This is a scratch implemention of a Operating System based on [RISC-V](https://riscv.org).
+This is a scratch implemention of an Operating System based on [RISC-V](https://riscv.org).
 For details of Lrix, you can visit [Report](./assets/LrixReport.pdf) or 
 [报告](./assets/LrixReport-ZhCN.pdf).
 
@@ -110,7 +110,7 @@ To run this project, you need to have belowings:
     Compiling steps
     ```bash
     docker pull `os`:latest
-    docker run -d -name osdev `os`:latest bash
+    docker run -d --name osdev `os`:latest bash
     # if you compiled riscv-toolchain on your host os
     # you may need to add more prameters to start the 
     # docker container.
